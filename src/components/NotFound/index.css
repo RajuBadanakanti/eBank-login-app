@@ -1,0 +1,73 @@
+/*  MOBILE DEVICE  */
+
+.not-found-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-found-heading {
+  color: #5a7184;
+  font-size: 25px;
+  font-family: 'roboto';
+  text-align: center;
+}
+.not-found-description {
+  color: #c3cad9;
+  font-family: 'roboto';
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+.not-found-content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.not-found-img {
+  width: 60%;
+}
+
+/* DESKTOP DEVICE   */
+
+@media screen and (min-width: 768px) {
+  .not-found-container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .not-found-heading {
+    color: #5a7184;
+    font-size: 40px;
+    font-family: 'roboto';
+  }
+  .not-found-description {
+    color: #c3cad9;
+    font-family: 'roboto';
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .not-found-content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .not-found-img {
+    width: 50%;
+  }
+}

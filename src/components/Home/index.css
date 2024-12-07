@@ -1,0 +1,47 @@
+/*  MOBILE DEVICE  */
+
+.bg-home-container {
+  min-height: 100vh;
+  background-color: #152850;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.home-heading {
+  font-family: 'roboto';
+  color: #ffffff;
+  font-size: 35px;
+}
+.digital-card {
+  width: 60%;
+}
+
+/*  DESKTOP DEVICE  */
+
+@media screen and (min-width: 768px) {
+  .bg-home-container {
+    min-height: 100vh;
+    background-color: #152850;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .home-heading {
+    font-family: 'roboto';
+    color: #ffffff;
+    font-size: 60px;
+  }
+  .digital-card {
+    width: 50%;
+  }
+}

@@ -1,0 +1,66 @@
+/*  MOBILE DEVICE   */
+
+@media screen and (max-width: 767px) {
+  .bg-header-container {
+    width: 100%;
+    height: 100px;
+    background-color: #152850;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-website-logo {
+    height: 35px;
+    width: 85px;
+    cursor: pointer;
+  }
+  .logout-button {
+    height: 30px;
+    width: 80px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: 'roboto';
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+/* DESCTOP DEVICES   */
+@media screen and (min-width: 768px) {
+  .bg-header-container {
+    width: 100%;
+    height: 120px;
+    background-color: #152850;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-website-logo {
+    height: 60px;
+    width: 140px;
+    cursor: pointer;
+  }
+  .logout-button {
+    height: 40px;
+    width: 100px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'roboto';
+    outline: none;
+    cursor: pointer;
+  }
+}
